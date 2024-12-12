@@ -6,11 +6,39 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: calc(100vw - 40px);
+    width: calc(100vw);
     height: 80px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
     padding-top: 20px;
     padding-right: 20px;
     background-color: #BCCCDC;
+}
+
+.nav-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-family: "Itim";
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    color: black;
+    background-color: aliceblue;
+}
+
+.nav-navs-div {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: calc(100% - 400px);
+    height: 100%;
+    margin-left: 340px;
+    background-color: aquamarine;
 }

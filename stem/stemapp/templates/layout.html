@@ -7,11 +7,15 @@
         <title>{% block title %}{% endblock %}</title>
 
         <link rel="stylesheet" href="{% static 'css/layout.css' %}">
+        <link href='https://fonts.googleapis.com/css?family=Itim' rel='stylesheet'>
         {% block links %}{% endblock %}
     </head>
     <body class="body">
         <nav class="navbar">
-            
+            <h1 class="nav-title">STEMventures</h1>
+
+            <div class="nav-navs-div">
+            </div>
         </nav>
 
         {% block body %}
