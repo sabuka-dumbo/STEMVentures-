@@ -39,7 +39,8 @@
     left: 0;
     width: calc(100% - 900px);
     height: 80px;
-    margin-left: 300px;
+    margin-left: 400px;
+    margin-right: 100px;
     background-color: aquamarine;
 }
 
